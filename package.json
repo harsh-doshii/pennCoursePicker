@@ -1,0 +1,7 @@
+{
+  "dependencies": {
+    "@fontsource/poppins": "^5.2.6",
+    "@fontsource/roboto-mono": "^5.2.5",
+    "react-markdown": "^10.1.0"
+  }
+}
