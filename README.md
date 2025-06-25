@@ -1,4 +1,4 @@
-# MyCoursePicker (MCP)
+# PennCoursePicker (PCP)
 
 A modern web application that helps students make informed decisions about their course selections by providing AI-powered insights and historical data.
 
@@ -72,7 +72,7 @@ npm start
 
 ## Running the Service
 
-To run the complete MyCoursePicker application:
+To run the complete PennCoursePicker application:
 
 ### Quick Start (Recommended)
 

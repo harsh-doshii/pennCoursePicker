@@ -3,7 +3,7 @@ from fastapi.middleware.cors import CORSMiddleware
 from .routers import course_router, planning_router
 
 app = FastAPI(
-    title="MyCoursePicker API",
+    title="PennCoursePicker API",
     description="API for course planning and insights",
     version="1.0.0"
 )
@@ -23,4 +23,4 @@ app.include_router(planning_router.router, prefix="/api/planning", tags=["planni
 
 @app.get("/")
 async def root():
-    return {"message": "Welcome to MyCoursePicker API"} 
+    return {"message": "Welcome to PennCoursePicker API"} 

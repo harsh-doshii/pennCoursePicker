@@ -45,7 +45,7 @@ async def analyze_course(query: CourseQuery):
 
         # Generate insights using OpenRouter with Llama
         response = client.chat.completions.create(
-            model="meta-llama/llama-3.3-8b-instruct:free",
+            model="meta-llama/llama-4-scout:free",
             messages=[
                 {
                     "role": "system",

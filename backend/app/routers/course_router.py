@@ -16,7 +16,7 @@ router = APIRouter()
 reddit = praw.Reddit(
     client_id=os.getenv("REDDIT_CLIENT_ID"),
     client_secret=os.getenv("REDDIT_CLIENT_SECRET"),
-    user_agent="MyCoursePicker/1.0"
+            user_agent="PennCoursePicker/1.0"
 )
 
 class CourseInfo(BaseModel):
